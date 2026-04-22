@@ -96,18 +96,14 @@ export default function RegisterScreen() {
 
                 <TouchableOpacity 
                   style={styles.primaryButton}
-                  onPress={handleSubmit}
-                  activeOpacity={0.8}
+                   onPress={() =>{
+                router.push('/Menu')
+                } }
                 >
                   <ThemedText style={styles.buttonText}>Registrar Cuenta</ThemedText>
                 </TouchableOpacity>
 
-                <TouchableOpacity 
-                  style={styles.secondaryButton}
-                  onPress={() => router.back()}
-                >
-                  <ThemedText style={styles.secondaryButtonText}>¿Ya tienes cuenta? Inicia sesión</ThemedText>
-                </TouchableOpacity>
+                
               </View>
             </View>
           </ScrollView>

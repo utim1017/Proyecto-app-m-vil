@@ -18,6 +18,8 @@ export default function RootLayout() {
         <Stack.Screen name="index" options={{ presentation: 'modal', title: 'index' }} />
         <Stack.Screen name="login" options={{ presentation: 'modal', title: 'login' }} />
         <Stack.Screen name="newUser" options={{ presentation: 'modal', title: 'New User' }} />
+        <Stack.Screen name="Menu" options={{ presentation: 'modal', title: 'Menu' }} />
+  
       </Stack>
       <StatusBar style="auto" />
     </ThemeProvider>
